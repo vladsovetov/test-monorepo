@@ -3,5 +3,4 @@
 module.exports = parent360;
 
 function parent360() {
-    // TODO
-}
+    console.log("parent360");
