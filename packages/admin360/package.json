@@ -22,5 +22,9 @@
   },
   "bugs": {
     "url": "https://github.com/vladsovetov/test-monorepo/issues"
+  },
+  "dependencies": {
+    "semantic-release": "^19.0.3",
+    "semantic-release-monorepo": "^7.0.5"
   }
 }
