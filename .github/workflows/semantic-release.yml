@@ -28,6 +28,9 @@ jobs:
             shared:
               - 'packages/shared/**'
 
+      - name: install
+        run: yarn install
+
       - name: release
         if: steps.changes.outputs.shared == 'true'
         # run: pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release
