@@ -8,6 +8,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -28,4 +30,4 @@ jobs:
 
       - name: release
         if: steps.changes.outputs.shared == 'true'
-        run: cd packages/shared && yarn install && yarn release
+        run: cd packages/shared && yarn release
