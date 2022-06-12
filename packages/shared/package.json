@@ -18,16 +18,12 @@
     "url": "git+https://github.com/vladsovetov/test-monorepo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "release": "semantic-release -e semantic-release-monorepo"
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/vladsovetov/test-monorepo/issues"
   },
-  "dependencies": {
-    "semantic-release": "^19.0.3",
-    "semantic-release-monorepo": "^7.0.5"
-  },
+  "dependencies": {},
   "release": {
     "extends": "semantic-release-monorepo",
     "branches": [

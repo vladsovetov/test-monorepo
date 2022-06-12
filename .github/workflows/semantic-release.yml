@@ -11,6 +11,7 @@ jobs:
     env:
       NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       GH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      GITHUB_URL: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -32,4 +33,5 @@ jobs:
 
       - name: release
         if: steps.changes.outputs.shared == 'true'
-        run: cd packages/shared && yarn install && yarn release
+        # run: pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo
+        run: lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo 
