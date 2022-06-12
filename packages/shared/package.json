@@ -15,8 +15,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "release": "npx semantic-release"
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/vladsovetov/test-monorepo/issues"
