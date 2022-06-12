@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "release": "npm run semantic-release -e semantic-release-monorepo"
+    "release": "semantic-release -e semantic-release-monorepo"
   },
   "bugs": {
     "url": "https://github.com/vladsovetov/test-monorepo/issues"
