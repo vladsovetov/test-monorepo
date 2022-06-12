@@ -1,6 +1,7 @@
 {
   "name": "@vladsovetov/shared",
   "version": "0.0.0",
+  "private": true,
   "description": "> TODO: description",
   "author": "Vlad Sovetov <vlad.sovetov@gmail.com>",
   "homepage": "https://github.com/vladsovetov/test-monorepo#readme",
@@ -32,6 +33,8 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
       [
         "@semantic-release/git",
         {
