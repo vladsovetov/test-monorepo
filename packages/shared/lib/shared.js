@@ -3,5 +3,5 @@
 module.exports = shared;
 
 function shared() {
-  console.log("shared 5");
+  console.log("shared 6");
 }
