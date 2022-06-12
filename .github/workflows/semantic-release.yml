@@ -34,6 +34,5 @@ jobs:
         if: steps.changes.outputs.shared == 'true'
         # run: pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo
         run: |
-          echo '@vladsovetov:registry=https://npm.pkg.github.com' >> '.npmrc'
-          && lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo 
+          echo '@vladsovetov:registry=https://npm.pkg.github.com' >> '.npmrc' && lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo 
         shell: bash
