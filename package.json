@@ -9,11 +9,5 @@
       "packages/*"
     ]
   },
-  "release": {
-    "extends": "semantic-release-monorepo",
-    "branches": [
-      "main"
-    ]
-  },
   "repository": "https://github.com/vladsovetov/test-monorepo"
 }
