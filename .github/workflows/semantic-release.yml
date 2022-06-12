@@ -36,3 +36,9 @@ jobs:
         # run: pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release
         run: lerna exec --concurrency 1 -- npx --no-install semantic-release
         shell: bash
+
+      - uses: JamieMason/syncpack-github-action@0.2.0
+        env:
+          # If any options are set to 'fix' then
+          # env.GITHUB_TOKEN is needed to push to PRs
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
