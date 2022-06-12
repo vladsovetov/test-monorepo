@@ -32,5 +32,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
   }
 }

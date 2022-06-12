@@ -25,5 +25,8 @@
   },
   "dependencies": {
     "@vladsovetov/shared": "0.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
   }
 }
