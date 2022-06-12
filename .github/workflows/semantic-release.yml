@@ -30,4 +30,4 @@ jobs:
 
       - name: release
         if: steps.changes.outputs.shared == 'true'
-        run: cd packages/shared && yarn release
+        run: cd packages/shared && yarn install && yarn release
