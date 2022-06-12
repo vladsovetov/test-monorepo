@@ -1196,6 +1196,11 @@
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
 
+"@vladsovetov/shared@0.0.0":
+  version "0.0.0"
+  resolved "https://npm.pkg.github.com/download/@vladsovetov/shared/0.0.0/7e4a95897cd20f178b9aca775e06dd06fe519aa04a88835caffd860f28c9f67a#bdf59fc23ffd7437af41aac483b792192d2dad90"
+  integrity sha512-Rl4et7/+U++gSqZWr3dK1B8798sgyGARxrPW3NAFg9xncop27GdLySz1ByRxPdUD00d1wTFZaqQSMUZka9KVOw==
+
 JSONStream@^1.0.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"

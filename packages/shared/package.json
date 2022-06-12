@@ -15,7 +15,8 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "release": "npx semantic-release"
   },
   "bugs": {
     "url": "https://github.com/vladsovetov/test-monorepo/issues"
@@ -24,6 +25,12 @@
   "repository": "git://github.com/vladsovetov/test-monorepo.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.3",
+    "semantic-release-monorepo": "^7.0.5"
   },
   "release": {
     "extends": "semantic-release-monorepo",
@@ -48,10 +55,34 @@
       ]
     ]
   },
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^19.0.3",
-    "semantic-release-monorepo": "^7.0.5"
+  "syncpack": {
+    "dev": true,
+    "filter": ".",
+    "indent": "  ",
+    "overrides": true,
+    "peer": true,
+    "pnpmOverrides": true,
+    "prod": true,
+    "resolutions": true,
+    "workspace": true,
+    "semverGroups": [],
+    "semverRange": "",
+    "sortAz": [
+      "contributors",
+      "dependencies",
+      "devDependencies",
+      "keywords",
+      "peerDependencies",
+      "resolutions",
+      "scripts"
+    ],
+    "sortFirst": [
+      "name",
+      "description",
+      "version",
+      "author"
+    ],
+    "source": [],
+    "versionGroups": []
   }
 }

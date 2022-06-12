@@ -14,30 +14,6 @@
     "lib"
   ],
   "repository": "git://github.com/vladsovetov/test-monorepo.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "release": {
-    "extends": "semantic-release-monorepo",
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/github",
-        {
-          "assets": [
-            "dist/**/*.{js,css}",
-            "docs",
-            "package.json"
-          ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
@@ -46,9 +22,5 @@
   },
   "dependencies": {
     "@vladsovetov/shared": "0.0.0"
-  },
-  "devDependencies": {
-    "semantic-release": "^19.0.3",
-    "semantic-release-monorepo": "^7.0.5"
   }
 }
