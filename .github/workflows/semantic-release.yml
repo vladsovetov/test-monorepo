@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14
-          registry-url: 'https://npm.pkg.github.com/vladsovetov'
+          registry-url: 'https://npm.pkg.github.com/vladsovetov/test-monorepo'
 
       - uses: dorny/paths-filter@v2
         id: changes
