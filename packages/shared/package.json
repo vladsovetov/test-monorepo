@@ -13,10 +13,6 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vladsovetov/test-monorepo.git"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
@@ -30,6 +26,7 @@
       "main"
     ]
   },
+  "repository": "https://github.com/vladsovetov/test-monorepo.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
