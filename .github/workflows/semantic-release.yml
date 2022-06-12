@@ -24,7 +24,7 @@ jobs:
               - 'packages/shared/**'
 
       - name: install
-        run: yarn install
+        run: lerna bootstrap
 
       - name: release
         if: steps.changes.outputs.shared == 'true'
