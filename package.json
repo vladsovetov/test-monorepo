@@ -8,5 +8,14 @@
     "packages": [
       "packages/*"
     ]
+  },
+  "dependencies": {
+    "semantic-release": "^19.0.3"
+  },
+  "release": {
+    "extends": "semantic-release-monorepo",
+    "branches": [
+      "main"
+    ]
   }
 }
