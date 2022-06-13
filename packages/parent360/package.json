@@ -1,6 +1,7 @@
 {
   "name": "@vladsovetov/parent360",
   "version": "0.0.0",
+  "private": true,
   "description": "> TODO: description",
   "author": "Vlad Sovetov <vlad.sovetov@gmail.com>",
   "homepage": "https://github.com/vladsovetov/test-monorepo#readme",
