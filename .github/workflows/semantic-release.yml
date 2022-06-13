@@ -21,25 +21,10 @@ jobs:
           node-version: 14
           registry-url: 'https://npm.pkg.github.com'
 
-      - uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          filters: |
-            shared:
-              - 'packages/shared/**'
-
       - name: install
         run: yarn install
 
       - name: release
-        if: steps.changes.outputs.shared == 'true'
-        # run: pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release
         run: cd packages/shared && npx semantic-release
         shell: bash
-
-      # - name: sync versions
-      #   if: steps.changes.outputs.shared == 'true'
-      #   # run: pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release
-      #   run: yarn syncversions
-      #   shell: bash
 
