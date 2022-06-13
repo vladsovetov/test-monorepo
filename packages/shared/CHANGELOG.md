@@ -1,5 +1,11 @@
 # @vladsovetov/shared
 
+## 1.6.0
+
+### Minor Changes
+
+- cce1071: test
+
 ## 1.5.0
 
 ### Minor Changes
