@@ -1,5 +1,0 @@
----
-"@vladsovetov/shared": minor
----
-
-test
