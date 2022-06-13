@@ -12,7 +12,8 @@
   },
   "repository": "https://github.com/vladsovetov/test-monorepo",
   "scripts": {
-    "syncversions": "syncpack fix-mismatches -f shared"
+    "syncversions": "syncpack fix-mismatches -f shared",
+    "release": "cd packages/shared && yarn test && changeset publish"
   },
   "dependencies": {
     "@changesets/cli": "^2.23.0"
