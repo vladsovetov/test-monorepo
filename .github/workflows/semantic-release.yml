@@ -24,6 +24,6 @@ jobs:
         run: yarn install
 
       - name: release
-        run: cd packages/shared && npx semantic-release
+        run: cd packages/shared && npx semantic-release --debug
         shell: bash
 
