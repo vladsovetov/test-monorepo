@@ -1,0 +1,5 @@
+---
+"@vladsovetov/shared": patch
+---
+
+test
