@@ -14,7 +14,7 @@
   "files": [
     "lib"
   ],
-  "repository": "git://github.com/vladsovetov/test-monorepo.git",
+  "repository": "https://github.com/vladsovetov/test-monorepo",
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },

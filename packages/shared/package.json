@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/vladsovetov/test-monorepo/issues"
   },
-  "repository": "git://github.com/vladsovetov/test-monorepo.git",
+  "repository": "https://github.com/vladsovetov/test-monorepo",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
