@@ -22,6 +22,6 @@
     "url": "https://github.com/vladsovetov/test-monorepo/issues"
   },
   "dependencies": {
-    "@vladsovetov/shared": "1.5.4"
+    "@vladsovetov/shared": "1.5.5"
   }
 }
