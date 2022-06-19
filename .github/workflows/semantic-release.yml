@@ -27,4 +27,4 @@ jobs:
         run: cd packages/shared && npx semantic-release --debug
         shell: bash
 
-      - uses: vladsovetov/monorepo-linked-deps-sync@v2.0
+      - uses: vladsovetov/monorepo-linked-deps-sync@v2.1
