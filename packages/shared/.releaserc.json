@@ -1,5 +1,3 @@
 {
-  "release": {
-    "extends": "../../.releaserc.json"
-  }
+  "extends": "../../.releaserc.json"
 }
