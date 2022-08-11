@@ -1456,22 +1456,22 @@
   "resolved" "file:packages/admin360"
   "version" "0.0.0"
   dependencies:
-    "@vladsovetov/shared" "1.5.4"
+    "@vladsovetov/shared" "1.5.5"
 
 "@vladsovetov/parent360@file:/home/runner/work/test-monorepo/test-monorepo/packages/parent360":
   "resolved" "file:packages/parent360"
   "version" "0.0.0"
   dependencies:
-    "@vladsovetov/shared" "1.5.4"
+    "@vladsovetov/shared" "1.5.5"
 
-"@vladsovetov/shared@1.5.4":
-  "integrity" "sha512-IOJ4gcxAxWpcz13xFYdhn/2tngNoGcLQmwWo5uXrjvSICu6F72AlPhyflkm1JTQxQiqMiEkicTUPzkln8tCBrQ=="
-  "resolved" "https://npm.pkg.github.com/download/@vladsovetov/shared/1.5.4/c79284fda0d0c15a4fbf67a1e131ab22751bd230a422ce353df1a4822d6ef022"
-  "version" "1.5.4"
+"@vladsovetov/shared@1.5.5":
+  "integrity" "sha512-7R7+r8KabL+2ATZUTLju+rB9NeRA5tuC33b1oLFw2tORTQSaEzulOYSMBv7PNLwTOoo+Z+WyD7ajpo7srqnJIA=="
+  "resolved" "https://npm.pkg.github.com/download/@vladsovetov/shared/1.5.5/6e98ef6c6cf15b9d25e371a2b3bc8cc908c8a3f3f948f9668a7e6729b0d47c69"
+  "version" "1.5.5"
 
 "@vladsovetov/shared@file:/home/runner/work/test-monorepo/test-monorepo/packages/shared":
   "resolved" "file:packages/shared"
-  "version" "1.5.5"
+  "version" "1.0.0"
 
 "abbrev@~1.1.1", "abbrev@1":
   "integrity" "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q=="
